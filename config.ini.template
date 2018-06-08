@@ -1,0 +1,5 @@
+[CLUSTER]
+myip = 127.0.0.1
+BootStrapNodeCount = 3
+NormalNodeCount = 3
+NAccount = 6

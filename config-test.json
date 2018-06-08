@@ -1,0 +1,32 @@
+{
+    "my_ip": "127.0.0.1",
+    "cluster":[
+        {
+            "ip": "127.0.0.1"
+        },
+        {
+            "ip": "127.0.0.1"
+        }
+    ],
+    "bootstrap_nodes": 3,
+    "normal_nodes": 2, 
+    "code_path" : " ~/codes/go/src/github.com/ethereum/go-ethereum", 
+    "verbosity" : 4, 
+    "max_peer": 100,
+    "print_debug": false,
+    "parameters":{
+        "committee_ratio": 3,
+        "validator_ratio": 4,
+        "term_len" : 100,
+        "validate_threshold" : 0.5,
+        "committee_timeout": 4600, 
+        "reg_per_blk": 100, 
+        "registration_timeout": 10,
+        "validate_timeout": 500,
+        "election_timeout": 100,
+        "backoff_time": 50,
+	"txn_per_blk": 1000,
+	"txn_size":100, 
+	"breakdown": true
+    }
+}
